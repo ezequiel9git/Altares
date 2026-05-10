@@ -1,4 +1,4 @@
-// useGame.js — Lógica del juego LUCES
+// useGame.js — Lógica del juego ALTARES
 
 import { useState, useCallback } from 'react'
 

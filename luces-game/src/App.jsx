@@ -1,4 +1,4 @@
-// App.jsx — Componente principal del juego LUCES
+// App.jsx — Componente principal del juego ALTARES
 
 import { useGame } from './hooks/useGame.js'
 import Board from './components/Board.jsx'
@@ -35,7 +35,7 @@ export default function App() {
             letterSpacing: '0.15em',
           }}
         >
-          LUCES
+          ALTARES
         </h1>
         <p className="font-body italic text-parchment/50 text-lg mt-1">
           enciende todas las velas
@@ -45,7 +45,7 @@ export default function App() {
       {/* Instrucciones */}
       {!won && (
         <p className="text-parchment/40 text-sm font-body text-center mb-5 max-w-xs leading-relaxed">
-          Haz clic en una vela para cambiar el estado de ella y sus vecinas
+          Toca una vela para cambiar su estado y el de sus vecinas
         </p>
       )}
 
@@ -109,7 +109,7 @@ export default function App() {
           style={{ background: 'rgba(255,170,0,0.1)' }}
         />
         <span style={{ color: 'rgba(255,170,0,0.2)', fontSize: '10px' }}>
-          ✦ LUCES ✦
+          ✦ ALTAR ✦
         </span>
         <div
           className="w-16 h-px"
